@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* Utiltity class */
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #ddd;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#navbar .nav-links ul {
+  list-style: none;
+  display: flex;
+}
+
+#navbar .nav-links button {
+  padding: 1.65rem 0;
+  border: none;
+  font-size: 1.2rem;
+}
+
+#navbar .nav-links button a {
+  padding: 1.7rem 1.2rem;
+  background-color: #ddd;
+}
+
+#navbar .nav-links .about-follow a:hover,
+#navbar .nav-links .category-follow a:hover {
+  color: #4e1b0b;
+  font-weight: 600;
+}
+
+#navbar .nav-links a:hover {
+  color: #6b1e07;
+}
+
+#navbar .nav-links ul li .follow-list .about-follow {
+  display: none;
+  padding: 0.5rem;
+}
+
+#navbar .nav-links ul li .follow-list:hover .about-follow {
+  background-color: rgb(218, 208, 208);
+  display: block;
+  position: absolute;
+  top: 3.8rem;
+  width: 8rem;
+  height: 6rem;
+  border-radius: 5px;
+  font-size: 1.1em;
+  opacity: 0.8;
+}
+
+#navbar .nav-links ul li .follow-list .about-follow ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+#navbar .nav-links ul li .follow-list .about-follow ul li {
+  padding-bottom: 0.7rem;
+}
+
+#navbar .nav-links ul li .follow-list .category-follow {
+  display: none;
+  padding: 0.5rem;
+}
+
+#navbar .nav-links ul li .follow-list:hover .category-follow {
+  background-color: rgb(218, 208, 208);
+  display: block;
+  position: absolute;
+  top: 3.8rem;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 5px;
+  font-size: 1.2em;
+  opacity: 0.8;
+}
+
+#navbar .nav-links ul li .follow-list .category-follow ul {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+#navbar .nav-links ul li .follow-list .category-follow ul li {
+  padding-bottom: 0.7rem;
+}
