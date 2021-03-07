@@ -6,6 +6,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #eee;
 }
 
 a {
@@ -13,7 +14,61 @@ a {
   text-decoration: none;
 }
 
+section {
+  margin-top: 5rem;
+}
+
+ul {
+  list-style: none;
+}
+
 /* Utiltity class */
+.btn {
+  padding: 0.7rem 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(255 166 17);
+  border: 0;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(80, 97, 6);
+  color: #fff;
+  box-shadow: 3px 2px 2px rgb(208 55 55);
+}
+
+.primary-text {
+  color: #ff7b00;
+}
+
+.l-header {
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.m-header {
+  font-size: 1.5rem;
+}
+
+.more:hover {
+  text-decoration: underline;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding: 2rem 0;
+}
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* start */
+/* index page */
+/* index page */
 
 /* Navbar */
 #navbar {
@@ -21,7 +76,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 0 2rem;
-  background-color: #ddd;
+  background-color: #6e7d96;
   position: fixed;
   top: 0;
   right: 0;
@@ -42,6 +97,7 @@ a {
 #navbar .nav-links button a {
   padding: 1.7rem 1.2rem;
   background-color: #ddd;
+  background-color: #6e7d96;
 }
 
 #navbar .nav-links .about-follow a:hover,
@@ -108,4 +164,81 @@ a {
 
 #navbar .nav-links ul li .follow-list .category-follow ul li {
   padding-bottom: 0.7rem;
+}
+
+/* showcase */
+#showcase {
+  background: url(../img/showcase2.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 4.7rem;
+  text-align: center;
+  padding-top: 10rem;
+}
+
+#showcase .title {
+  font-size: 4rem;
+  color: #ff7b00;
+  padding-bottom: 1.2rem;
+  text-shadow: 5px 5px #f00;
+}
+
+#showcase p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.3rem;
+}
+
+/* Most sails */
+#home-content {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+
+#home-content .content .box {
+  width: 100%;
+  height: 100%;
+  background-color: #576b88;
+  margin-bottom: 1rem;
+}
+
+#home-content .content .box h3 {
+  padding: 1rem 0 0 2rem;
+}
+
+#home-content .content .box p {
+  padding: 0.5rem 0 0.5rem 2.1rem;
+  color: #fff;
+  font-size: 1.2;
+}
+
+#home-content .content .box ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#home-content .content .box ul li {
+  padding: 0 1%;
+}
+
+#home-content .content .box ul li img {
+  width: 100%;
+  /* padding: 0 2%; */
+  border: 1px solid #fff;
+}
+
+/* End */
+/* index page */
+/* index page */
+
+/*  */
+
+/* footer */
+#footer {
+  width: 100%;
+  background: #444;
+  padding: 1.5rem 0;
+  text-align: center;
+  color: #fff;
 }
